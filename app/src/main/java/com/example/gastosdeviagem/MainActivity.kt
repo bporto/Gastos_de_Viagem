@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             validateOk = false
         }
         if (edtAutonomy.text.isEmpty()
-            || edtPrice.text.toString().toFloat() == 0f
+            || edtAutonomy.text.toString() == "0"
         ) {
             edtAutonomy.error =
                 "Informe a autonomia do seu veículo"
